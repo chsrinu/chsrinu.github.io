@@ -27,6 +27,7 @@ html{
     width: 20vw;
     height: 22vw;
     perspective: 1000px;
+    text-align: center;
 }
 
 .card{
@@ -35,7 +36,7 @@ html{
     height:100%;
     transform-style: preserve-3d;
     transition: 0.6s;
-    text-align: center;
+    
 }
 .dpContainer:hover .card {
     transform: rotateY(180deg);
@@ -53,7 +54,6 @@ html{
     transform: rotateY(180deg);
     background-color: #00A550;
     color:white;
-    text-align: center;
 }
 
 span{
@@ -63,6 +63,10 @@ span{
     width: 20vw;
     height: 22vw;
 }
+.xxs{
+    font-size: 0.7vw;
+}
+
 .xs{
     font-size: 1.5vw;
 }
@@ -78,13 +82,18 @@ span{
 .xl{
     font-size: 3.5vw;
 }
+.xs_img{
+    height:1vw;
+    width:1vw;
+}
+
 .s_img{
     height:3vw;
     width:3vw;
 }
 .m_img{
-    height:5vw;
-    width:5vw;
+    height:4vw;
+    width:4vw;
     border-radius: 2vw;
 }
 .l_img{
@@ -95,5 +104,8 @@ span{
 .communication_channel_styles{
     display: flex;
     justify-content: space-around;
-    margin: 25% 0;
+    padding: 20% 0;
+}
+.centerAlignment{
+    text-align: center
 }

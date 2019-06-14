@@ -11,18 +11,15 @@ function showDescriptions_onClick(id) {
     document.getElementById(id).style.display="block"
 }
 
-export default () => (
-<div className={styles.container}>
+export default ({id}) => (
+
+<div id={id} className={styles.container}>
     {data.map((elem)=>(
         <div>
-            <div id={elem.key} style={{"display":"none"}} >
-                    <Modal onClick={() => handleClose(elem.key)}>
-                        <img className="s_img" src={require("../../static/" + elem.src)} alt={elem.src} />
-                        <div className="l">{elem.description}</div>
-                    </Modal>
-            </div>
-            <img className="l_img" onClick={() => showDescriptions_onClick(elem.key)} src={require("../../static/" + elem.src)} alt={elem.src} />
+        <img className="l_img" src={require("../../static/" + elem.src)} alt={elem.src} />
+        <p className="xs">{elem.role}</p>
         </div>
     ))}
 </div>
 )
+

@@ -1,0 +1,18 @@
+
+.scrollDownContainer{
+    position: relative;
+    margin: 0 auto;
+    animation: jump 2s infinite;
+    text-align: center;
+    cursor: pointer;
+}
+.scrollDownText {
+    color: white;
+    text-align: center;
+
+}
+@keyframes jump {
+    0% { top: 0vw; }
+    50% { top: 2vw; } 
+    100% { top: 0vw; } 
+}
