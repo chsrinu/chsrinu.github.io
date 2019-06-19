@@ -6,6 +6,7 @@ import stackoverflowIcon from "../../static/stackoverflow.png"
 import ScrollDownAnchor from "../components/ScrollDownAnchor"
 import upArrowIcon from "../../static/uparrow.png"
 import dollar from "../../static/dollar.png"
+import dp from "../../static/dp.jpg"
 import resume from "../../static/Srinivas Cheerla.pdf"
 import styles from "./index.module.css"
 import { Helmet } from "react-helmet"
@@ -42,7 +43,7 @@ export default () =>
         <div className="dpContainer">
             <div className="card">
                 <div className="front">
-                    <img className="imageProps" src="./dp.jpg" alt="dp" />
+                    <img className="imageProps" src={dp} alt="dp" />
                 </div>
                 <div className="back">
                     <div className="s">Aims and Aspirations</div>
