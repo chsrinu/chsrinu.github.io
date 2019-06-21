@@ -6,9 +6,9 @@ import stackoverflowIcon from "../../static/stackoverflow.png"
 import ScrollDownAnchor from "../components/ScrollDownAnchor"
 import upArrowIcon from "../../static/uparrow.png"
 import dollar from "../../static/dollar.png"
-import dp from "../../static/dp.jpg"
 import resume from "../../static/Srinivas Cheerla.pdf"
 import styles from "./index.module.css"
+import dp from "../../static/dp.jpeg"
 import { Helmet } from "react-helmet"
 
 function scrollToExperiencePage(){
@@ -28,13 +28,14 @@ export default () =>
 <Helmet>
     <meta charSet="utf-8" />
     <title>Srinivas Cheerla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <meta name="description" content="Personal profile of Srinivas Cheerla" />
     <meta name="keywords" content="Job, looking for Job change, java developer,
     full stack developer" />
     <link rel="shortcut icon" type="image/jpg" href={dollar} sizes="16x16" />
 </Helmet>
 <div className="introContainer">
-        <div style={{ "display": "flex", "flexDirection": "column" }}>
+        <div>
             <div className="nameContainer">
                 I<span>'</span>M <br /> SRINIVAS <br /> CHEERLA<span>.</span>
             </div>
