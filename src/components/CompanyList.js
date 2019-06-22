@@ -15,7 +15,7 @@ export default ({id}) => (
 
 <div id={id} className={styles.container}>
     {data.map((elem)=>(
-        <div>
+        <div className={styles.hoverEffect}>
         <img className="l_img" title={elem.title} src={require("../../static/" + elem.src)} alt={elem.src} />
         <p className="xs">{elem.role}</p>
         </div>

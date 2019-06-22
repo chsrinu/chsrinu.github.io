@@ -2,7 +2,7 @@
 .scrollDownContainer{
     position: relative;
     margin: 0 auto;
-    animation: jump 2s infinite;
+    animation: jump 1.5s infinite ease-in-out;
     text-align: center;
     cursor: pointer;
 }
@@ -11,8 +11,18 @@
     text-align: center;
 
 }
+@-webkit-keyframes jump {
+    0% { top: 0px; }
+    50% { top: 25px; } 
+    100% { top: 0px; } 
+}
+@-ms-keyframes jump {
+    0% { top: 0px; }
+    50% { top: 25px; } 
+    100% { top: 0px; } 
+}
 @keyframes jump {
-    0% { top: 0vw; }
-    50% { top: 2vw; } 
-    100% { top: 0vw; } 
+    0% { top: 0px; }
+    50% { top: 25px; } 
+    100% { top: 0px; } 
 }
