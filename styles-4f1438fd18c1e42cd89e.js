@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{102:function(o,n,e){},142:function(o,n,e){o.exports={container:"companyList-module--container--DKlyW",hoverEffect:"companyList-module--hoverEffect--2P_dn"}},143:function(o,n,e){o.exports={scrollDownContainer:"scrollDown-module--scrollDownContainer--1F1KG",jump:"scrollDown-module--jump--reZrs",scrollDownText:"scrollDown-module--scrollDownText--pCJCV"}},144:function(o,n,e){o.exports={resumeLink:"index-module--resumeLink--3upfs"}}}]);
-//# sourceMappingURL=styles-4f1438fd18c1e42cd89e.js.map
